@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Megrim|Monoton');
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Monoton', 'Consolas', cursive;
+  font-size: 70px;
+  margin: 0.2em;
+  color: #444;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: 'Megrim', 'Consolas';
+  margin: 1em 0 0.25em;
+}
+
+label,
+input,
+button {
+  font-family: 'Cabin', 'Consolas';
+  margin: 1em 0 0.25em;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #A8A8A8;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto 20px auto;
+  cursor: pointer;
+  box-shadow: -1px 2px #444;
+}
+
+tr {
+  height: 20px;
+}
+
+td {
+  width: 20px;
+}
+
+input[type=number] {
+  width: 3em;
+  border: 1px solid #D3D3D3;
+}
+
+#newGrid {
+  background-color: #444;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
