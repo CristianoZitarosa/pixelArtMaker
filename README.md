@@ -24,7 +24,7 @@ The application consists in a grid of cells (the number is defined by the user t
 ### How to run the application:
 You can  run it online or download on your computer:
 
-- Visit this link.
+- [Visit this link](https://cristianozitarosa.github.io/pixelArtMaker/);
 
 - Download the folder from git on the desktop, unzip it and open `index.html` in your browser.
 

@@ -12,7 +12,6 @@ const newGrid = document.getElementById('sizePicker');
 **/
 window.onload = () => {
 	makeGrid(inputHeight.value, inputWidth.value);
-	// addListeners(); /* no longer used */
 };
 
 /**
@@ -28,7 +27,6 @@ newGrid.onsubmit = function(e) {
 	let selectedHeight = inputHeight.value;
 	let selectedWidth = inputWidth.value;
 	makeGrid(selectedHeight, selectedWidth);
-	// addListeners(); /* no longer used */
 };
 
 /**
@@ -74,24 +72,3 @@ function resetCell(e) {
 **/
 canvas.addEventListener('click', paintCell);
 canvas.addEventListener('contextmenu', resetCell);
-
-/* no longer used */
-
-// /**
-//  *	Function that set listeners on single cells waiting for mouse clicks.
-//  **/
-// function addListeners() {
-// 	const cells = document.querySelectorAll("td"); /* array of all cells */
-// 	cells.forEach(cell => {
-// 		/* listener on each single cell to paint */
-// 		cell.onclick = function() {
-// 			let selectedColor = colorPicker.value;
-// 			this.style.backgroundColor = selectedColor;
-// 		};
-// 		cell.oncontextmenu = function(e) {
-// 			/* listener on each single cell to reset color */
-// 			e.preventDefault();
-// 			this.style.backgroundColor = "#fff";
-// 		};
-// 	});
-// }
